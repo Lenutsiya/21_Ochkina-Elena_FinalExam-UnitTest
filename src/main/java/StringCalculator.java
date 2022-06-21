@@ -10,7 +10,7 @@ public class StringCalculator {
             if (numbers.charAt(0) == '-'){//no negative
                 throw new IllegalArgumentException("Not allowed negative numbers");
             }
-            if (numbers.length() > 3) {//no numbers more than 1000
+            if (numbers.length() > 3) {//no numbers more than 1000git add
                 return returnValue = 1;
             }
             if (!number.trim().isEmpty()) {

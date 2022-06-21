@@ -20,8 +20,8 @@ public class StringCalculatorTest {
     }
 
     @Test
-
-    public void test1() throws IOException {
+//check exceptions
+    public void test1() throws IllegalArgumentException {
         //stringCalculator.add("-1.5");
         String number = "-1.5";
         assertThrows(IllegalArgumentException.class, () -> stringCalculator.add(number));
