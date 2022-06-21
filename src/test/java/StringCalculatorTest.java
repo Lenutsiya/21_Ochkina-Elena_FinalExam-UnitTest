@@ -20,6 +20,7 @@ public class StringCalculatorTest {
     }
 
     @Test
+
     public void test1() throws IOException {
         //stringCalculator.add("-1.5");
         String number = "-1.5";
